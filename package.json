@@ -12,7 +12,18 @@
   ],
   "author": "",
   "license": "",
+   "repository": {
+    "type": "git",
+    "url": "git@github.com:quenice/react-native-cardview.git"
+  },
+    "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.9"
+  },
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react": "^16.8.3"
+  },
+  "dependencies": {
+    "prop-types": "^16.8.19"
   }
 }
