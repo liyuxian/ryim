@@ -14,7 +14,7 @@
   "license": "",
    "repository": {
     "type": "git",
-    "url": "git@github.com:quenice/react-native-cardview.git"
+    "url": "git@github.com/liyuxian/ryim.git"
   },
     "devDependencies": {
     "react": "^16.8.3",
