@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NavPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/NormalPadding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ytx_user_id_hint"
+            android:textColor="@color/red"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:id="@+id/ytx_user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/NormalPadding"
+            android:layout_marginStart="@dimen/NormalPadding"
+            android:textSize="@dimen/primary_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/NormalPadding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ytx_user_name_hint"
+            android:textColor="@color/red"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:id="@+id/ytx_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/NormalPadding"
+            android:layout_marginStart="@dimen/NormalPadding"
+            android:textSize="@dimen/primary_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/NormalPadding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ytx_user_sex_hint"
+            android:textColor="@color/red"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:id="@+id/ytx_user_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/NormalPadding"
+            android:layout_marginStart="@dimen/NormalPadding"
+            android:textSize="@dimen/primary_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/NormalPadding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ytx_user_birthday_hint"
+            android:textColor="@color/red"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:id="@+id/ytx_user_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/NormalPadding"
+            android:layout_marginStart="@dimen/NormalPadding"
+            android:textSize="@dimen/primary_text_size" />
+    </LinearLayout>
+</LinearLayout>

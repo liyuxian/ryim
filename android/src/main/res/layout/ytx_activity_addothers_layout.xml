@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NavPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/NormalPadding">
+
+    <com.yuntongxun.plugin.common.common.base.CCPClearEditText
+        android:id="@+id/other01"
+        style="@style/CCPEditText"
+        android:layout_width="match_parent"
+        android:hint="@string/ytx_please_entry_to_account"
+        android:inputType="number" />
+
+    <com.yuntongxun.plugin.common.common.base.CCPClearEditText
+        android:id="@+id/other02"
+        style="@style/CCPEditText"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/NormalPadding"
+        android:hint="@string/ytx_please_entry_to_account"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn"
+        style="@style/CCPBigGreenButton"
+        android:layout_marginTop="@dimen/NormalPadding"
+        android:text="@string/app_ok" />
+
+
+</LinearLayout>

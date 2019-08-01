@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">IM UIKit</string>
+    <string name="kickoff">你的账号被异地登录</string>
+    <string name="ytx_please_entry_account">请输入登入ID</string>
+    <string name="ytx_please_entry_nickname">请输入用户昵称</string>
+    <string name="ytx_login">登入</string>
+    <string name="ytx_please_entry_pwd">密码选择填写，若填写则为通讯账号验密登陆方式</string>
+    <string name="ytx_please_entry_to_account">请输入对方ID</string>
+    <string name="ytx_open_chat">开始聊天</string>
+    <string name="ytx_create_group">创建群聊</string>
+    <string name="ytx_my_communication">我的沟通</string>
+    <string name="ytx_my_group">我的群组</string>
+    <string name="ytx_setting">设置</string>
+    <string name="ytx_get_userinfo">获取用户信息</string>
+    <string name="ytx_exit">退出</string>
+    <string name="ytx_please_entry_friend_account">请输入输入好友id</string>
+
+    <string name="ytx_user_id_hint">用户ID:</string>
+    <string name="ytx_user_name_hint">用户昵称:</string>
+    <string name="ytx_user_sex_hint">用户性别:</string>
+    <string name="ytx_user_birthday_hint">用户生日:</string>
+    <string name="ytx_male">男</string>
+    <string name="ytx_female">女</string>
+
+    <string name="ytx_error_get_person_info">获取用户信息错误[%d]</string>
+
+</resources>
